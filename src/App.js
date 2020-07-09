@@ -1,27 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Greet} from './component/functional_component' // the identifier should start with a capital letter 
+import Welcome from './component/class_component'
 
 function App() {
   return (
     <div className="App">
-
-
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        DJ ankur in the house boiiis
-
-        </p>
-       <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Greet/>
+      <h1>hi</h1>
+      <Welcome/>
     </div>
   );
 }
