@@ -7,7 +7,7 @@ function functional_click() {
     }
     return (
         <div>
-            <button onClick={clickhandler}>f_click</button> 
+            <button onClick={clickHandler}>f_click</button> 
         </div>
     )
     // not clickHandler() as that would call the function itself 

@@ -8,6 +8,7 @@ import Message from './component/Message'
 import Counter from './component/counter' 
 import Fclick from './component/functional_click'
 import Cclick from './component/class_click'
+import Ebind from './component/event_bind'
 function App() {
   return (
     <div className="App">
@@ -20,9 +21,9 @@ function App() {
         {/*<Message firstname = "dedpoolman"></Message>*/}
         {/*<Counter></Counter>
         <Greet firstname = "Rahul " sirname= "Verma"></Greet>*/}
-        <Fclick></Fclick>
-        <Cclick></Cclick>
-
+        {/*<Fclick></Fclick>
+        <Cclick></Cclick>*/}
+        <Ebind></Ebind>
        {/*<h1>hi</h1>
       <Welcome/>*/ }
 
