@@ -6,7 +6,8 @@ import Welcome from './component/class_component'
 import JsxImplementation from './component/JavaScriptXML'
 import Message from './component/Message'
 import Counter from './component/counter' 
-
+import Fclick from './component/functional_click'
+import Cclick from './component/class_click'
 function App() {
   return (
     <div className="App">
@@ -17,8 +18,10 @@ function App() {
         <Welcome firstname = "Sheikh" sirname = "Sharma"></Welcome>*/}
 
         {/*<Message firstname = "dedpoolman"></Message>*/}
-        <Counter></Counter>
-        <Greet firstname = "Rahul " sirname= "Verma"></Greet>
+        {/*<Counter></Counter>
+        <Greet firstname = "Rahul " sirname= "Verma"></Greet>*/}
+        <Fclick></Fclick>
+        <Cclick></Cclick>
 
        {/*<h1>hi</h1>
       <Welcome/>*/ }
