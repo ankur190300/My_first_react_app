@@ -10,9 +10,11 @@ import Fclick from './component/functional_click'
 import Cclick from './component/class_click'
 import Ebind from './component/event_bind'
 import PComp from './component/ParentComponent'
+import CondGreet from './component/Conditional_greeting'
 function App() {
   return (
     <div className="App">
+        <CondGreet></CondGreet>
         {/*<Greet firstname = "Ankur" sirname= "Tiwari">
         I like playing badminton and guitar.
         </Greet>
@@ -25,7 +27,9 @@ function App() {
         {/*<Fclick></Fclick>
         <Cclick></Cclick>*/}
         {/*<Ebind></Ebind>*/}
-        <PComp></PComp>
+        {
+          // <PComp></PComp>
+        }
 
        {/*<h1>hi</h1>
       <Welcome/>*/ }
