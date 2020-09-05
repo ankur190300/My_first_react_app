@@ -11,10 +11,13 @@ import Cclick from './component/class_click'
 import Ebind from './component/event_bind'
 import PComp from './component/ParentComponent'
 import CondGreet from './component/Conditional_greeting'
+import Nlist from './component/NameList'
 function App() {
   return (
     <div className="App">
-        <CondGreet></CondGreet>
+        <Nlist></Nlist>
+        {// <CondGreet></CondGreet>
+        }
         {/*<Greet firstname = "Ankur" sirname= "Tiwari">
         I like playing badminton and guitar.
         </Greet>
